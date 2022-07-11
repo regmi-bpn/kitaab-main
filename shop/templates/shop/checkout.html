@@ -98,6 +98,6 @@ alert('Thanks for ordering with us. Your order is is {{id}}. Use it to track you
 localStorage.clear();
 document.location = "/shop";
 {% endif %}
-$('#amount').val($('totalPrice').html())
+$('#amount').val(totalPrice);
 </script>
 {% endblock %}
